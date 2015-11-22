@@ -19,10 +19,3 @@ https://leetcode.com/
 ------
 SQL questions:
 https://leetcode.com/problemset/database/
-
-https://leetcode.com/problems/employees-earning-more-than-their-managers/
-
-solution:
-SELECT employer.Name
-    FROM  Employee employer JOIN Employee manager ON (employer.ManagerId = manager.Id )
-      WHERE employer.Salary > manager.Salary ;
