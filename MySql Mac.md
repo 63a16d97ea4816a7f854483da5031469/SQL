@@ -1,5 +1,22 @@
 ##MySql Mac
 
+ 
+tomcat path:  
+
+/var/lib/tomcat7  
+
+sudo service tomcat7 restart  
+sudo service tomcat7 stop  
+
+Watch the tomcat console:  
+sudo tail -f /var/log/tomcat7/catalina.out  
+
+
+Backup your DB:  
+mysqldump -u username -p password databaseName > backFileName.sql
+
+
+
 http://www.macupdate.com/app/mac/6915/mysql/download
 
 
